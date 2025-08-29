@@ -14,7 +14,7 @@ body {
 
 /* Navigation Styles */
 .navbar {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
@@ -123,15 +123,15 @@ body {
 
 .hero-title {
     font-size: 3rem;
-    color: #1f2937;
+    color: #fbbf24;
     margin-bottom: 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #35465e 0%, #546886 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.hero-description {
+.hero-section p {
     font-size: 1.2rem;
     color: #6b7280;
     max-width: 800px;
@@ -156,6 +156,22 @@ body {
 .hero-image:hover {
     transform: translateY(-10px);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+}
+.portrett img{
+    max-width: 200px;
+}
+
+.contact_icon {
+    margin-top: 0.5rem;
+    font-size: 0;
+}
+.contact_icon img {
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    border: none;
+    object-position: center;
+    margin: 0.5rem;
 }
 
 /* Footer */
