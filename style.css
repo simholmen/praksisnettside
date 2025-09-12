@@ -182,6 +182,74 @@ body {
     object-position: center;
     margin: 0.5rem;
 }
+.dagbok-content {
+    margin-top: 70px;
+    min-height: calc(100vh - 70px - 80px);
+}
+
+.dagbok-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.dagbok-section {
+    text-align: left;
+    animation: fadeInUp 1s ease-out;
+}
+
+.dagbok-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #35465e 0%, #546886 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dagbok-section p {
+    font-size: 1.2rem;
+    color: #6b7280;
+    max-width: 800px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+.dagbok-section h2 {
+    border-top: #1f2937 1px solid;
+}
+.dagbok-section h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.dagbok-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.dagbok-image {
+    max-width: 70%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dagbok-bilde img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.dagbok-image:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+}
 
 .mainstatus-content {
     display: flex;
